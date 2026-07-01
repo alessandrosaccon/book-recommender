@@ -1,0 +1,233 @@
+
+/* Container centrale (card) */
+.card {
+    -fx-background-color: #fff;
+    -fx-background-radius: 28px;
+    -fx-effect: dropshadow(gaussian, rgba(60,88,170,0.15), 32, 0.15, 0, 2);
+    -fx-padding: 40 32 32 32;
+    -fx-max-width: 380px;
+    -fx-max-height: 500px;
+    -fx-min-width: 300px;
+    -fx-alignment: center;
+    -fx-spacing: 16px;
+}
+
+.card-big {
+    -fx-background-color: #fff;
+    -fx-background-radius: 28px;
+    -fx-effect: dropshadow(gaussian, rgba(60,88,170,0.15), 32, 0.15, 0, 2);
+    -fx-padding: 40 32 32 32;
+    -fx-max-width: 520px;
+    -fx-max-height: 600px;
+    -fx-min-width: 300px;
+    -fx-alignment: center;
+    -fx-spacing: 16px;
+}
+
+.card-large {
+    -fx-background-color: #fff;
+    -fx-background-radius: 28px;
+    -fx-effect: dropshadow(gaussian, rgba(60,88,170,0.15), 32, 0.15, 0, 2);
+    -fx-padding: 40 32 32 32;
+    -fx-max-width: 820px;
+    -fx-max-height: 800px;
+    -fx-min-width: 250px;
+    -fx-alignment: center;
+    -fx-spacing: 16px;
+}
+
+/* Form label */
+.label {
+    -fx-text-fill: #15587a;
+    -fx-font-size: 14px;
+    -fx-font-weight: 500;
+    -fx-padding: 0 0 6 0;
+    -fx-letter-spacing: 0.4px;
+}
+
+/* Titolo */
+.menu-titolo, .login-titolo {
+    /* -fx-text-fill: #15587a; */
+    -fx-font-size: 26px;
+    -fx-font-weight: 700;
+    -fx-padding: 0 0 24 0;
+    -fx-letter-spacing: 2px;
+}
+
+
+.label-big {
+    -fx-text-fill: #15587a;
+    -fx-font-size: 18px;
+    -fx-font-weight: 600;
+    -fx-padding: 0 0 6 0;
+    -fx-letter-spacing: 0.4px;
+}
+
+/* Input (TextField e PasswordField) */
+.text-field, .password-field {
+    -fx-background-color: #f6faff;
+    -fx-background-radius: 18px;
+    -fx-border-radius: 18px;
+    -fx-border-color: #d1e7f5;
+    -fx-border-width: 1.5px;
+    -fx-padding: 9 12 9 12;
+    -fx-font-size: 15px;
+    -fx-text-fill: #17212b;
+    -fx-effect: dropshadow(gaussian, rgba(0,122,206,0.04), 8, 0.06, 0, 2);
+    -fx-prompt-text-fill: #98b6ce;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #0095cd;
+    -fx-background-color: #e6f4ff;
+    -fx-effect: dropshadow(gaussian, #0095cd33, 8, 0.17, 0, 2);
+}
+
+/* Bottoni Principali*/
+.main-btn {
+    -fx-background-color: linear-gradient(to right, #2377bc 0%, #36a0e3 70%);
+    -fx-text-fill: #fff;
+    -fx-background-radius: 28px;
+    -fx-font-weight: 600;
+    -fx-font-size: 18px;
+    -fx-pref-width: 220px;
+    -fx-padding: 13 0 13 0;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(35,119,188,0.08), 6, 0.18, 0, 2);
+    -fx-border-width: 0;
+    -fx-alignment: center;
+    -fx-spacing: 12px;
+}
+
+.back-btn {
+    -fx-background-color: linear-gradient(to right, #bc2323 0%, #e33636 70%);
+    -fx-text-fill: #fff;
+    -fx-background-radius: 28px;
+    -fx-font-weight: 600;
+    -fx-font-size: 18px;
+    -fx-pref-width: 220px;
+    -fx-padding: 13 0 13 0;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(35,119,188,0.08), 6, 0.18, 0, 2);
+    -fx-border-width: 0;
+    -fx-alignment: center;
+    -fx-spacing: 12px;
+}
+
+.login-btn, .reg-btn {
+    -fx-background-color: linear-gradient(to right, #229f39 0%, #27c231 70%);
+    -fx-text-fill: #fff;
+    -fx-background-radius: 28px;
+    -fx-font-weight: 600;
+    -fx-font-size: 18px;
+    -fx-pref-width: 220px;
+    -fx-padding: 13 0 13 0;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(35,119,188,0.08), 6, 0.18, 0, 2);
+    -fx-border-width: 0;
+    -fx-alignment: center;
+    -fx-spacing: 12px;
+}
+
+.main-btn-small {
+    -fx-background-color: linear-gradient(to right, #2377bc 0%, #36a0e3 70%);
+    -fx-text-fill: #fff;
+    -fx-background-radius: 28px;
+    -fx-font-weight: 600;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-padding: 8 0 8 0;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(35,119,188,0.08), 6, 0.18, 0, 2);
+    -fx-border-width: 0;
+    -fx-alignment: center;
+    -fx-spacing: 12px;
+}
+
+.back-btn-small {
+    -fx-background-color: linear-gradient(to right, #bc2323 0%, #e33636 70%);
+    -fx-text-fill: #fff;
+    -fx-background-radius: 28px;
+    -fx-font-weight: 600;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-padding: 8 0 8 0;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(35,119,188,0.08), 6, 0.18, 0, 2);
+    -fx-border-width: 0;
+    -fx-alignment: center;
+    -fx-spacing: 12px;
+}
+
+.login-btn-small, .reg-btn-small {
+    -fx-background-color: linear-gradient(to right, #229f39 0%, #27c231 70%);
+    -fx-text-fill: #fff;
+    -fx-background-radius: 28px;
+    -fx-font-weight: 600;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-padding: 8 0 8 0;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(35,119,188,0.08), 6, 0.18, 0, 2);
+    -fx-border-width: 0;
+    -fx-alignment: center;
+    -fx-spacing: 12px;
+}
+
+.showinfo-btn {
+    -fx-background-color: linear-gradient(to right, #2377bc 0%, #36a0e3 70%);
+    -fx-text-fill: #fff;
+    -fx-background-radius: 28px;
+    -fx-font-weight: 600;
+    -fx-font-size: 18px;
+    -fx-pref-width: 220px;
+    -fx-padding: 13 0 13 0;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(35,119,188,0.08), 6, 0.18, 0, 2);
+    -fx-border-width: 0;
+    -fx-alignment: center;
+    -fx-spacing: 12px;
+}
+
+.button:focused {
+    -fx-border-color: transparent;
+    -fx-effect: none;
+}
+
+.main-btn:hover {
+    -fx-background-color: linear-gradient(to right, #216ab0 0%, #2495d7 70%);
+    -fx-scale-x: 1.04;
+    -fx-scale-y: 1.04;
+}
+
+.login-btn:hover, .reg-btn:hover {
+    -fx-background-color: linear-gradient(to right, #21b023 0%, #24d73f 70%);
+    -fx-scale-x: 1.04;
+    -fx-scale-y: 1.04;
+}
+
+.back-btn:hover {
+    -fx-background-color: linear-gradient(to right, #b02323 0%, #d72424 70%);
+    -fx-scale-x: 1.04;
+    -fx-scale-y: 1.04;
+}
+
+/* .login-btn:focused, .main-btn:focused {
+    -fx-border-color: #FFD700;
+    -fx-border-width: 2px;
+} */
+
+/* Per icone se usi Label o Button con emoji*/
+.icon {
+    -fx-font-size: 1.3em;
+    -fx-padding: 0 8 0 0;
+}
+
+/* Centraggio contenitori bottoni */
+.login-btn-container, .reg-btn-container {
+    -fx-alignment: center;
+}
+
+.list-view {
+    -fx-min-height: 115px;
+}
