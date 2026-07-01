@@ -1,0 +1,19 @@
+# Maven build output
+target/
+
+# Compiled Java classes
+*.class
+
+# Jar files (keep bin/ but ignore auto-generated ones)
+dependency-reduced-pom.xml
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
